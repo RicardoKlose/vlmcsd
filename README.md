@@ -20,23 +20,25 @@ cscript ospp.vbs /act
 ```
 
 ## GVLKs
-Authoritative source on Microsoft's [TechNet](https://technet.microsoft.com/en-us/library/jj612867)
+Authoritative source on Microsoft's [TechNet](https://technet.microsoft.com/en-us/library/jj612867) and [Windows Server Activation Guide](https://docs.microsoft.com/en-us/windows-server/get-started/kmsclientkeys).
 
 ### Windows 10
 | Operating system edition          | KMS Client Setup Key          |
 | --------------------------------- | ----------------------------- |
-| Windows 10 CoreCountrySpecific    | PVMJN-6DFY6-9CCP6-7BKTT-D3WVR |
-| Windows 10 CoreSingleLanguage     | 7HNRX-D7KGG-3K4RQ-4WPJ4-YTDFH |
-| Windows 10 CoreN                  | 3KHY7-WNT83-DGQKR-F7HPR-844BM |
 | Windows 10 Core                   | TX9XD-98N7V-6WMQ6-BX7FG-H8Q99 |
-| Windows 10 EducationN             | 2WH4N-8QGBV-H22JP-CT43Q-MDWWJ |
-| Windows 10 Education              | NW6C2-QMPVW-D7KKK-3GKT6-VCFB2 |
-| Windows 10 EnterpriseSN           | 2F77B-TNFGY-69QQF-B8YKP-D69TJ |
-| Windows 10 EnterpriseS            | WNMTR-4C88C-JK8YV-HQ7T2-76DF9 |
-| Windows 10 EnterpriseN            | DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4 |
-| Windows 10 Enterprise             | NPPR9-FWDCX-D2C8J-H872K-2YT43 |
-| Windows 10 ProfessionalN          | MH37W-N47XK-V7XM9-C7227-GCQG9 |
+| Windows 10 Core N                 | 3KHY7-WNT83-DGQKR-F7HPR-844BM |
+| Windows 10 Core Country Specific  | PVMJN-6DFY6-9CCP6-7BKTT-D3WVR |
+| Windows 10 Core Single Language   | 7HNRX-D7KGG-3K4RQ-4WPJ4-YTDFH |
 | Windows 10 Professional           | W269N-WFGWX-YVC9B-4J6C9-T83GX |
+| Windows 10 Professional N         | MH37W-N47XK-V7XM9-C7227-GCQG9 |
+| Windows 10 Enterprise             | NPPR9-FWDCX-D2C8J-H872K-2YT43 |
+| Windows 10 Enterprise N           | DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4 |
+| Windows 10 Education              | NW6C2-QMPVW-D7KKK-3GKT6-VCFB2 |
+| Windows 10 Education N            | 2WH4N-8QGBV-H22JP-CT43Q-MDWWJ |
+| Windows 10 Enterprise 2015 LTSB   | WNMTR-4C88C-JK8YV-HQ7T2-76DF9 |
+| Windows 10 Enterprise 2015 LTSB N | 2F77B-TNFGY-69QQF-B8YKP-D69TJ |
+| Windows 10 Enterprise 2016 LTSB   | DCPHK-NFMTC-H88MJ-PFHPY-QJ4BJ |
+| Windows 10 Enterprise 2016 LTSB N | QFFDN-GRT3P-VKWWX-X7T3R-8B639 |
 
 ### Windows 8 / 8.1
 | Operating system edition                  | KMS Client Setup Key          |
@@ -105,6 +107,23 @@ Authoritative source on Microsoft's [TechNet](https://technet.microsoft.com/en-u
 | Windows Server 2008 R2 Datacenter                 | 74YFP-3QFB3-KQT8W-PMXWJ-7M648 |
 | Windows Server 2008 R2 for Itanium-based Systems  | GT63C-RJFQ3-4GMB6-BRFB9-CB83V |
 
+### Office 2019
+| Product                       | GVLK                          |
+| ----------------------------- | ----------------------------- |
+| Office Professional Plus 2019 | NMMKJ-6RK4F-KMJVX-8D9MJ-6MWKP |
+| Office Standard 2019          | 6NWWJ-YQWMR-QKGCB-6TMB3-9D9HK |
+| Project Professional 2019     | B4NPR-3FKK7-T2MBV-FRQ4W-PKD2B |
+| Project Standard 2019         | C4F7P-NCP8C-6CQPT-MQHV9-JXD2M |
+| Visio Professional 2019       | 9BGNQ-K37YR-RQHF2-38RQ3-7VCBB |
+| Visio Standard 2019           | 7TQNQ-K3YQQ-3PFH7-CCPPM-X4VQ2 |
+| Access 2019                   | 9N9PT-27V4Y-VJ2PD-YXFMF-YTFQT |
+| Excel 2019                    | TMJWT-YYNMB-3BKTF-644FC-RVXBD |
+| Outlook 2019                  | 7HD7K-N4PVK-BHBCQ-YWQRW-XW4VK |
+| PowerPoint 2019               | RRNCX-C64HY-W2MM7-MCH9G-TJHMQ |
+| Publisher 2019                | G2KWX-3NW6P-PY93R-JXK2T-C9Y9V |
+| Skype for Business 2019       | NCJ33-JHBBY-HTK98-MYCV8-HMKHJ |
+| Word 2019                     | PBX3G-NWMT6-Q7XBW-PYJGG-WXD33 |
+
 ### Office 2016
 | Product                       | GVLK                          |
 | ----------------------------- | ----------------------------- |
@@ -161,4 +180,3 @@ Authoritative source on Microsoft's [TechNet](https://technet.microsoft.com/en-u
 | Visio Standard 2010           | 767HD-QGMWX-8QTDB-9G3R2-KHFGJ |
 | Visio Professional 2010       | 7MCW8-VRQVK-G677T-PDJCM-Q8TCP |
 | Visio Premium 2010            | D9DWC-HPYVV-JGF4P-BTWQB-WX8BJ |
-
